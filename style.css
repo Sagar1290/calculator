@@ -1,0 +1,50 @@
+#container{
+    width: 300px;
+    margin: auto;
+    background-color: rgb(93, 93, 150);
+}
+.grid-container{
+    display: grid;
+    border-radius: 5px;
+}
+#keys > button{
+    border-radius: 5px;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+
+}
+
+.grid-item{
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+   
+    padding: 20px 0;
+    font-size: 30px;
+    
+}
+#display-box{
+    height: 30px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    text-align: right;
+    max-width: 100%;
+    font-size: 25px;
+    
+}
+.keyAC {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.key0{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#btn:hover{
+    background-color: rgb(210, 221, 235);
+}
